@@ -3,7 +3,7 @@ import env from env;
 var http = require("http");
 const { MongoClient, ServerApiVersion } = require("mongodb");
 
-const uri = "MONGO_CONECTION_URL";
+const uri = "MONGO_CONNECTION_URL";
 let client;
 async function main() {
   const client = new MongoClient(uri);
